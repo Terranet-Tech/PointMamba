@@ -1,0 +1,16 @@
+model: {
+  NAME: PointMambaScan,
+  trans_dim: 384,
+  depth: 12,
+  cls_dim: 40,
+  num_heads: 6,
+  group_size: 32,
+  num_group: 64,
+  encoder_dims: 384,
+  rms_norm: False,
+  drop_path: 0.5,
+  drop_out: 0.,
+  use_cls_token: False,
+  max_head: False,
+  avg_head: True,
+}
